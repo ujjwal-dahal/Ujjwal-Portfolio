@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 
 const Header = () => {
   return (
-    <header className="py-6 xl:py-10 text-white bg-dark relative shadow-md">
+    <header className="py-6 xl:py-10 xl:px-24 px-2 text-white bg-dark relative shadow-md">
       <div className="container mx-auto flex justify-between items-center">
 
         {/* Logo Section */}
@@ -23,7 +23,7 @@ const Header = () => {
           <Link
             href="/contact"
           >
-            <Button>Hire Me</Button>
+            <Button className="hover:bg-transparent hover:text-accent hover:border-accent hover:border-2 border-transparent border-2 hover:transition-all duration-500">Hire Me</Button>
           </Link>
         </div>
 
