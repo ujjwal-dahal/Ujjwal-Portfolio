@@ -16,7 +16,7 @@ export default function Home() {
           <div className="text-center xl:text-left order-2 xl:order-none">
             
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Ujjwal Dahal</span>
+              Hello I&apos;m <br /> <span className="text-accent">Ujjwal Dahal</span>
             </h1>
             <span className="text-xl font-medium text-accent">
               <TypeWriterEffect />
