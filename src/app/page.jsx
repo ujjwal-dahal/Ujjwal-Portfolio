@@ -16,10 +16,11 @@ export default function Home() {
           <div className="text-center xl:text-left order-2 xl:order-none">
             
             <h1 className="h1 mb-6">
-              Hello I&apos;m <br /> <span className="text-accent">Ujjwal Dahal</span>
+              Hi, It&apos;s <span className="text-accent">Ujjwal</span>
             </h1>
-            <span className="text-xl font-medium text-accent">
-              <TypeWriterEffect />
+            <span className="text-2xl font-medium">I&apos;m a </span>
+            <span className="text-2xl font-medium text-accent inline-block">
+            <TypeWriterEffect />
             </span>
             <p className="max-w-[500px] mb-9 text-white/80 mt-5">
               I have a strong foundation in full-stack development, graphics

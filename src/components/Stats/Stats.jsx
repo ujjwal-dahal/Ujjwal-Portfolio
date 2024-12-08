@@ -27,7 +27,7 @@ const Stats = () => {
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0 xl:px-20">
 
       <div className="container mx-auto">
-        <div className="flex flex-wrap gap-8 max-w-[80vw] mx-auto xl:max-w-none ">
+        <div className="grid grid-cols-2 gap-8 max-w-[80vw] mx-auto xl:max-w-none xl:flex xl:flex-wrap xl:mb-10">
           {
             stats.map((item , index)=>{
                return <div className="
