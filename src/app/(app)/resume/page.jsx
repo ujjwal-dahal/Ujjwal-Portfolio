@@ -1,13 +1,24 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaSass } from "react-icons/fa";
 import {
   SiTailwindcss,
-  SiScikitlearn as SiScss,
   SiDjango,
   SiCanva,
   SiNextdotjs,
   SiAdobephotoshop,
+  SiMongodb,
+  SiMysql,
+  SiCplusplus,
+  SiC,
+  SiSupabase,
+  SiVercel,
+  SiRedux,
+  SiTypescript,
+  SiJavascript,
+  SiPython,
+  SiAdobepremierepro,
+  SiBootstrap,
 } from "react-icons/si";
 
 import { BsYoutube } from "react-icons/bs";
@@ -94,7 +105,7 @@ const myEducation = {
       institution: "IOE, Thapathali Campus",
       degree:
         "Bachelor in Electronics Engineering",
-      duration: "2023 - 2027",
+      duration: "2023 - Present",
     },
     {
       institution: "Sushma Godawari College",
@@ -116,17 +127,29 @@ const mySkills = {
   description:
     "A list of my technical skills in web development, design, and related technologies.",
   skillList: [
-    { icon: <FaHtml5 />, name: "HTML 5" },
-    { icon: <FaCss3 />, name: "CSS 3" },
-    { icon: <FaJs />, name: "JavaScript" },
-    { icon: <FaReact />, name: "React.js" },
-    { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <SiDjango />, name: "Django" },
-    { icon: <SiCanva />, name: "Canva" },
-    { icon: <FaFigma />, name: "Figma" },
-    { icon: <BsYoutube />, name: "Capcut" },
-    { icon: <SiAdobephotoshop />, name: "Adobe Photoshop" },
+    { icon: <SiJavascript />, name: "JavaScript", hoverColor: "text-yellow-400" },
+    { icon: <SiCplusplus />, name: "C++", hoverColor: "text-blue-500" },
+    { icon: <SiPython />, name: "Python", hoverColor: "text-green-400" },
+    { icon: <SiTypescript />, name: "TypeScript", hoverColor: "text-blue-400" },
+    { icon: <SiC />, name: "C", hoverColor: "text-gray-500" },
+    { icon: <FaHtml5 />, name: "HTML 5", hoverColor: "text-orange-500" },
+    { icon: <FaCss3 />, name: "CSS 3", hoverColor: "text-blue-500" },
+    { icon: <FaSass />, name: "Sass", hoverColor: "text-pink-500" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS", hoverColor: "text-teal-400" },
+    { icon: <SiBootstrap />, name: "Bootstrap", hoverColor: "text-purple-500" },
+    { icon: <FaReact />, name: "React.js", hoverColor: "text-cyan-400" },
+    { icon: <SiRedux />, name: "Redux Toolkit", hoverColor: "text-purple-600" },
+    { icon: <SiNextdotjs />, name: "Next.js", hoverColor: "text-black" },
+    { icon: <SiDjango />, name: "Django", hoverColor: "text-green-700" },
+    { icon: <SiSupabase />, name: "Supabase", hoverColor: "text-green-500" },
+    { icon: <SiMysql />, name: "MySQL", hoverColor: "text-blue-600" },
+    { icon: <SiMongodb />, name: "MongoDB", hoverColor: "text-green-600" },
+    { icon: <SiCanva />, name: "Canva", hoverColor: "text-blue-400" },
+    { icon: <FaFigma />, name: "Figma", hoverColor: "text-purple-400" },
+    { icon: <SiAdobephotoshop />, name: "Adobe Photoshop", hoverColor: "text-blue-500" },
+    { icon: <BsYoutube />, name: "Capcut", hoverColor: "text-red-500" },
+    { icon: <SiAdobepremierepro />, name: "Adobe Premiere Pro", hoverColor: "text-blue-500" },
+    { icon: <SiVercel />, name: "Vercel", hoverColor: "text-black" },
   ],
 };
 
